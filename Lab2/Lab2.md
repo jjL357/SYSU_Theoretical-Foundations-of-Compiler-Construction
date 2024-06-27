@@ -36,7 +36,7 @@ $$
 & \mathrm{t}_{2}=\mathrm{j} * 32 \\
 & \mathrm{t}_{3}=\mathrm{t}_{1}+\mathrm{t}_{2}\\
 & \mathrm{t}_{4}=\mathrm{k} * 4 \\
-& \mathrm{t}_{5}=\mathrm{t}_{4}+\mathrm{t}_{3} \\
+& \mathrm{t}_{5}=\mathrm{t}_{3}+\mathrm{t}_{4} \\
 & \mathrm{t}_{6}=\mathrm{a}\left[\mathrm{t}_{5}\right] \\
 & \mathrm{t}_{7}=\mathrm{c}+\mathrm{t}_{6}
 \end{aligned}
