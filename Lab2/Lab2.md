@@ -33,7 +33,7 @@ $\operatorname{address}(\mathrm{A}[\mathrm{i}][\mathrm{j}][\mathrm{k}])=$ base +
 $$
 \begin{aligned}
 & \mathrm{t}_{1}=\mathrm{i} * 224 \\
-& \mathrm{t}_{2}=\mathrm{j} * 56 \\
+& \mathrm{t}_{2}=\mathrm{j} * 32 \\
 & \mathrm{t}_{3}=\mathrm{t}_{1}+\mathrm{t}_{2}\\
 & \mathrm{t}_{4}=\mathrm{k} * 4 \\
 & \mathrm{t}_{5}=\mathrm{t}_{4}+\mathrm{t}_{3} \\
@@ -55,6 +55,7 @@ $$
 
 
 ![](./2.drawio.png)
+
 （b）根据图 3 的布尔表达式的翻译方案可以将布尔表达式 $x<100 \| x>200 \& \& x!=y$ 翻译成图 4(b) 的跳转指令, 该翻译过程先将跳转目标留空, 再通过对应的语义动作回填跳转目标, 请你以同样的方式给出 $a==$ $b \& \&(c==d \| e==f)$ 的跳转指令（假设第一条指令的地址为 100）。(2 分)
 
 
